@@ -1,6 +1,6 @@
-module github.com/ochinchina/supervisord/config
+module github.com/cyralinc/supervisord/config
 
-go 1.16
+go 1.22
 
 require (
 	github.com/ochinchina/go-ini v1.0.1

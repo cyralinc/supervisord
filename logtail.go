@@ -2,8 +2,9 @@ package main
 
 import (
 	"fmt"
-	"github.com/ochinchina/supervisord/logger"
 	"net/http"
+
+	"github.com/cyralinc/supervisord/logger"
 
 	"github.com/gorilla/mux"
 )

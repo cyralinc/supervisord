@@ -11,10 +11,10 @@ import (
 	"syscall"
 	"unicode"
 
+	"github.com/cyralinc/supervisord/config"
+	"github.com/cyralinc/supervisord/logger"
 	"github.com/jessevdk/go-flags"
 	"github.com/ochinchina/go-ini"
-	"github.com/ochinchina/supervisord/config"
-	"github.com/ochinchina/supervisord/logger"
 	log "github.com/sirupsen/logrus"
 )
 

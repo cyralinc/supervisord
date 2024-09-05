@@ -1,6 +1,6 @@
-module github.com/ochinchina/supervisord/faults
+module github.com/cyralinc/supervisord/faults
 
-go 1.16
+go 1.22
 
 require (
 	github.com/gorilla/rpc v1.2.0 // indirect
