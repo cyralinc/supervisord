@@ -1,4 +1,4 @@
-// +build !windows,!freebsd
+//go:build !windows && !freebsd
 
 package main
 

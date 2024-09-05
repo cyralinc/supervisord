@@ -1,5 +1,4 @@
-// +build !linux
-// +build !windows
+//go:build !linux && !windows
 
 package process
 
