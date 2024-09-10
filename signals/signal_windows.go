@@ -1,18 +1,17 @@
-//go:build windows
+// +build windows
 
 package signals
 
 import (
 	"errors"
 	"fmt"
+	log "github.com/sirupsen/logrus"
 	"os"
 	"os/exec"
 	"syscall"
-
-	log "github.com/sirupsen/logrus"
 )
 
-// convert a signal name to signal
+//convert a signal name to signal
 func ToSignal(signalName string) (os.Signal, error) {
 	if signalName == "HUP" {
 		return syscall.SIGHUP, nil
@@ -35,11 +34,12 @@ func ToSignal(signalName string) (os.Signal, error) {
 
 }
 
-// Args:
 //
-//	process - the process
-//	sig - the signal
-//	sigChildren - ignore in windows system
+// Args:
+//    process - the process
+//    sig - the signal
+//    sigChildren - ignore in windows system
+//
 func Kill(process *os.Process, sig os.Signal, sigChilren bool) error {
 	//Signal command can't kill children processes, call  taskkill command to kill them
 	cmd := exec.Command("taskkill", "/F", "/T", "/PID", fmt.Sprintf("%d", process.Pid))

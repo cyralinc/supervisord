@@ -5,7 +5,9 @@ import (
 	"testing"
 )
 
+//
 // check if program1 is before the program2 in the Entry
+//
 func isProgramBefore(entries []*Entry, program1 string, program2 string) bool {
 	order := 0
 	program1Order := -1

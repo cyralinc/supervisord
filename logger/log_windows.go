@@ -1,4 +1,5 @@
 //go:build windows || plan9 || nacl
+// +build windows plan9 nacl
 
 package logger
 
