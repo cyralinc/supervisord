@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/cyralinc/supervisord/logger"
+	"github.com/ochinchina/supervisord/logger"
 
 	"github.com/gorilla/mux"
 )

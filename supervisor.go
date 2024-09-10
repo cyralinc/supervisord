@@ -8,14 +8,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/cyralinc/supervisord/config"
-	"github.com/cyralinc/supervisord/events"
-	"github.com/cyralinc/supervisord/faults"
-	"github.com/cyralinc/supervisord/logger"
-	"github.com/cyralinc/supervisord/process"
-	"github.com/cyralinc/supervisord/signals"
-	"github.com/cyralinc/supervisord/types"
-	"github.com/cyralinc/supervisord/util"
+	"github.com/ochinchina/supervisord/config"
+	"github.com/ochinchina/supervisord/events"
+	"github.com/ochinchina/supervisord/faults"
+	"github.com/ochinchina/supervisord/logger"
+	"github.com/ochinchina/supervisord/process"
+	"github.com/ochinchina/supervisord/signals"
+	"github.com/ochinchina/supervisord/types"
+	"github.com/ochinchina/supervisord/util"
 
 	log "github.com/sirupsen/logrus"
 )

@@ -3,15 +3,6 @@ module github.com/cyralinc/supervisord
 go 1.22
 
 require (
-	github.com/cyralinc/supervisord/config v0.0.0-20230902082938-c2cae38b7454
-	github.com/cyralinc/supervisord/events v0.0.0-20230902082938-c2cae38b7454
-	github.com/cyralinc/supervisord/faults v0.0.0-20230902082938-c2cae38b7454
-	github.com/cyralinc/supervisord/logger v0.0.0-20230902082938-c2cae38b7454
-	github.com/cyralinc/supervisord/process v0.0.0-20230902082938-c2cae38b7454
-	github.com/cyralinc/supervisord/signals v0.0.0-20230902082938-c2cae38b7454
-	github.com/cyralinc/supervisord/types v0.0.0-20230902082938-c2cae38b7454
-	github.com/cyralinc/supervisord/util v0.0.0-20230902082938-c2cae38b7454
-	github.com/cyralinc/supervisord/xmlrpcclient v0.0.0-20230902082938-c2cae38b7454
 	github.com/gorilla/mux v1.8.1
 	github.com/gorilla/rpc v1.2.1
 	github.com/jessevdk/go-flags v1.6.1
@@ -20,7 +11,16 @@ require (
 	github.com/ochinchina/go-ini v1.0.1
 	github.com/ochinchina/go-reaper v0.0.0-20181016012355-6b11389e79fc
 	github.com/ochinchina/gorilla-xmlrpc v0.0.0-20171012055324-ecf2fe693a2c
-	github.com/prometheus/client_golang v1.20.2
+	github.com/ochinchina/supervisord/config v0.0.0-20230902082938-c2cae38b7454
+	github.com/ochinchina/supervisord/events v0.0.0-20230902082938-c2cae38b7454
+	github.com/ochinchina/supervisord/faults v0.0.0-20230902082938-c2cae38b7454
+	github.com/ochinchina/supervisord/logger v0.0.0-20230902082938-c2cae38b7454
+	github.com/ochinchina/supervisord/process v0.0.0-20230902082938-c2cae38b7454
+	github.com/ochinchina/supervisord/signals v0.0.0-20230902082938-c2cae38b7454
+	github.com/ochinchina/supervisord/types v0.0.0-20230902082938-c2cae38b7454
+	github.com/ochinchina/supervisord/util v0.0.0-20230902082938-c2cae38b7454
+	github.com/ochinchina/supervisord/xmlrpcclient v0.0.0-20230902082938-c2cae38b7454
+	github.com/prometheus/client_golang v1.20.3
 	github.com/sirupsen/logrus v1.9.3
 )
 
@@ -33,7 +33,7 @@ require (
 	github.com/munnerz/goautoneg v0.0.0-20191010083416-a7dc8b61c822 // indirect
 	github.com/ochinchina/filechangemonitor v0.3.1 // indirect
 	github.com/prometheus/client_model v0.6.1 // indirect
-	github.com/prometheus/common v0.58.0 // indirect
+	github.com/prometheus/common v0.59.1 // indirect
 	github.com/prometheus/procfs v0.15.1 // indirect
 	github.com/robfig/cron/v3 v3.0.1 // indirect
 	github.com/rogpeppe/go-charset v0.0.0-20190617161244-0dc95cdf6f31 // indirect
@@ -42,13 +42,13 @@ require (
 )
 
 replace (
-	github.com/cyralinc/supervisord/config => ./config
-	github.com/cyralinc/supervisord/events => ./events
-	github.com/cyralinc/supervisord/faults => ./faults
-	github.com/cyralinc/supervisord/logger => ./logger
-	github.com/cyralinc/supervisord/process => ./process
-	github.com/cyralinc/supervisord/signals => ./signals
-	github.com/cyralinc/supervisord/types => ./types
-	github.com/cyralinc/supervisord/util => ./util
-	github.com/cyralinc/supervisord/xmlrpcclient => ./xmlrpcclient
+	github.com/ochinchina/supervisord/config => ./config
+	github.com/ochinchina/supervisord/events => ./events
+	github.com/ochinchina/supervisord/faults => ./faults
+	github.com/ochinchina/supervisord/logger => ./logger
+	github.com/ochinchina/supervisord/process => ./process
+	github.com/ochinchina/supervisord/signals => ./signals
+	github.com/ochinchina/supervisord/types => ./types
+	github.com/ochinchina/supervisord/util => ./util
+	github.com/ochinchina/supervisord/xmlrpcclient => ./xmlrpcclient
 )
