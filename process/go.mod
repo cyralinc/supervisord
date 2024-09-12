@@ -10,14 +10,14 @@ require (
 	github.com/ochinchina/supervisord/signals v0.0.0-20220721095143-c2527852d28f
 	github.com/prometheus/client_golang v1.11.1
 	github.com/robfig/cron/v3 v3.0.1
-	github.com/sirupsen/logrus v1.8.1
+	github.com/sirupsen/logrus v1.9.3
 )
 
 require (
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/cespare/xxhash/v2 v2.1.1 // indirect
 	github.com/golang/protobuf v1.5.0 // indirect
-	github.com/gorilla/rpc v1.2.0 // indirect
+	github.com/gorilla/rpc v1.2.1 // indirect
 	github.com/hashicorp/go-envparse v0.1.0 // indirect
 	github.com/matttproud/golang_protobuf_extensions v1.0.1 // indirect
 	github.com/ochinchina/go-ini v1.0.1 // indirect
@@ -28,7 +28,7 @@ require (
 	github.com/prometheus/common v0.26.0 // indirect
 	github.com/prometheus/procfs v0.6.0 // indirect
 	github.com/rogpeppe/go-charset v0.0.0-20190617161244-0dc95cdf6f31 // indirect
-	golang.org/x/sys v0.0.0-20210603081109-ebe580a85c40 // indirect
+	golang.org/x/sys v0.25.0 // indirect
 	google.golang.org/protobuf v1.33.0 // indirect
 )
 
