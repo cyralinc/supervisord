@@ -168,6 +168,7 @@ func main() {
 	parser.Command.SubcommandsOptional = true
 	parser.CommandHandler = func(command flags.Commander, args []string) error {
 		if command == nil {
+			log.SetOutput(os.Stderr)
 			if options.Daemon {
 				logFile := getSupervisordLogFile(options.Configuration)
 				Daemonize(logFile, runServer)
