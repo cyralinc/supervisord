@@ -8,7 +8,7 @@ require (
 	github.com/ochinchina/supervisord/events v0.0.0-20230902082938-c2cae38b7454
 	github.com/ochinchina/supervisord/logger v0.0.0-20220721095143-c2527852d28f
 	github.com/ochinchina/supervisord/signals v0.0.0-20220721095143-c2527852d28f
-	github.com/prometheus/client_golang v1.20.4
+	github.com/prometheus/client_golang v1.20.5
 	github.com/robfig/cron/v3 v3.0.1
 	github.com/sirupsen/logrus v1.9.3
 )
