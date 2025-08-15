@@ -3,6 +3,7 @@
 package main
 
 import (
+	"errors"
 	"fmt"
 	"syscall"
 )
@@ -28,7 +29,7 @@ func (s *Supervisor) getMinRequiredRes(resourceName string) (uint64, error) {
 			return 0, fmt.Errorf("No such key %s", resourceName)
 		}
 	} else {
-		return 0, fmt.Errorf("No supervisord section")
+		return 0, errors.New("No supervisord section")
 	}
 
 }
@@ -50,7 +51,7 @@ func (s *Supervisor) checkMinLimit(resource int, resourceName string, minRequire
 
 	limit.Cur = limit.Max
 	if syscall.Setrlimit(syscall.RLIMIT_NOFILE, &limit) != nil {
-		return fmt.Errorf(fmt.Sprintf("fail to set the %s to %d", resourceName, limit.Cur))
+		return fmt.Errorf("fail to set the %s to %d", resourceName, limit.Cur)
 	}
 	return nil
 }

@@ -1,12 +1,12 @@
 module github.com/cyralinc/supervisord
 
-go 1.22
+go 1.24
 
 require (
 	github.com/gorilla/mux v1.8.1
 	github.com/gorilla/rpc v1.2.1
 	github.com/jessevdk/go-flags v1.6.1
-	github.com/kardianos/service v1.2.2
+	github.com/kardianos/service v1.2.4
 	github.com/ochinchina/go-daemon v0.1.5
 	github.com/ochinchina/go-ini v1.0.1
 	github.com/ochinchina/go-reaper v0.0.0-20181016012355-6b11389e79fc
@@ -17,10 +17,10 @@ require (
 	github.com/ochinchina/supervisord/logger v0.0.0-20230902082938-c2cae38b7454
 	github.com/ochinchina/supervisord/process v0.0.0-20230902082938-c2cae38b7454
 	github.com/ochinchina/supervisord/signals v0.0.0-20230902082938-c2cae38b7454
-	github.com/ochinchina/supervisord/types v0.0.0-20230902082938-c2cae38b7454
+	github.com/ochinchina/supervisord/types v0.0.0-20250610070102-16cb640325b3
 	github.com/ochinchina/supervisord/util v0.0.0-20230902082938-c2cae38b7454
 	github.com/ochinchina/supervisord/xmlrpcclient v0.0.0-20230902082938-c2cae38b7454
-	github.com/prometheus/client_golang v1.20.4
+	github.com/prometheus/client_golang v1.23.0
 	github.com/sirupsen/logrus v1.9.3
 )
 
@@ -29,16 +29,15 @@ require (
 	github.com/cespare/xxhash/v2 v2.3.0 // indirect
 	github.com/hashicorp/go-envparse v0.1.0 // indirect
 	github.com/kardianos/osext v0.0.0-20190222173326-2bc1f35cddc0 // indirect
-	github.com/klauspost/compress v1.17.9 // indirect
 	github.com/munnerz/goautoneg v0.0.0-20191010083416-a7dc8b61c822 // indirect
 	github.com/ochinchina/filechangemonitor v0.3.1 // indirect
-	github.com/prometheus/client_model v0.6.1 // indirect
-	github.com/prometheus/common v0.59.1 // indirect
-	github.com/prometheus/procfs v0.15.1 // indirect
+	github.com/prometheus/client_model v0.6.2 // indirect
+	github.com/prometheus/common v0.65.0 // indirect
+	github.com/prometheus/procfs v0.17.0 // indirect
 	github.com/robfig/cron/v3 v3.0.1 // indirect
 	github.com/rogpeppe/go-charset v0.0.0-20190617161244-0dc95cdf6f31 // indirect
-	golang.org/x/sys v0.25.0 // indirect
-	google.golang.org/protobuf v1.34.2 // indirect
+	golang.org/x/sys v0.35.0 // indirect
+	google.golang.org/protobuf v1.36.7 // indirect
 )
 
 replace (
