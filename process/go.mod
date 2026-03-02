@@ -1,6 +1,6 @@
 module github.com/cyralinc/supervisord/process
 
-go 1.24.0
+go 1.25.0
 
 require (
 	github.com/ochinchina/filechangemonitor v0.3.1
@@ -10,7 +10,7 @@ require (
 	github.com/ochinchina/supervisord/signals v0.0.0-20220721095143-c2527852d28f
 	github.com/prometheus/client_golang v1.23.2
 	github.com/robfig/cron/v3 v3.0.1
-	github.com/sirupsen/logrus v1.9.3
+	github.com/sirupsen/logrus v1.9.4
 )
 
 require (
@@ -25,12 +25,12 @@ require (
 	github.com/ochinchina/supervisord/faults v0.0.0-20230902082938-c2cae38b7454 // indirect
 	github.com/ochinchina/supervisord/util v0.0.0-20230902082938-c2cae38b7454 // indirect
 	github.com/prometheus/client_model v0.6.2 // indirect
-	github.com/prometheus/common v0.67.2 // indirect
-	github.com/prometheus/procfs v0.19.2 // indirect
+	github.com/prometheus/common v0.67.5 // indirect
+	github.com/prometheus/procfs v0.20.1 // indirect
 	github.com/rogpeppe/go-charset v0.0.0-20190617161244-0dc95cdf6f31 // indirect
 	go.yaml.in/yaml/v2 v2.4.3 // indirect
-	golang.org/x/sys v0.38.0 // indirect
-	google.golang.org/protobuf v1.36.10 // indirect
+	golang.org/x/sys v0.41.0 // indirect
+	google.golang.org/protobuf v1.36.11 // indirect
 )
 
 replace (
