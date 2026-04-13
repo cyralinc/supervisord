@@ -1,6 +1,6 @@
 module github.com/cyralinc/supervisord/logger
 
-go 1.24.0
+go 1.26.0
 
 require (
 	github.com/ochinchina/supervisord/events v0.0.0-20230902082938-c2cae38b7454
