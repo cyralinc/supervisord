@@ -1,6 +1,6 @@
 module github.com/cyralinc/supervisord/faults
 
-go 1.22
+go 1.26.0
 
 require github.com/ochinchina/gorilla-xmlrpc v0.0.0-20171012055324-ecf2fe693a2c
 
